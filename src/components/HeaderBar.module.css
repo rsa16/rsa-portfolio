@@ -1,0 +1,43 @@
+#headerIcon {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 4.80px;
+    color: #a8b9b7;
+}
+
+#statusText {
+    text-align: right;
+    width: 9rem;
+    font-size: 0.95rem;
+    justify-self: flex-end;
+}
+
+#statusText p {
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 0 90px;
+    margin-top: 40px;
+    user-select: none;
+}
+
+.navTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    width: 100px; 
+}
+
+.titleBorder {
+    height: 32px;
+    border: 2px #8cbbcd solid;
+    border-radius: 100px;
+    align-self: center;
+}

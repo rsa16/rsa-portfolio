@@ -1,0 +1,19 @@
+#frame {
+    position: fixed;
+    width: calc(100% - calc(1.5rem + 0.5vw) * 2);
+    height: calc(100% - calc(1.5rem + 0.5vw) * 2);
+
+    padding: calc(1.5rem + 0.5vw) calc(1.5rem + 0.5vw);
+}
+
+#frameChild {
+    position: fixed;
+
+    top: calc(1.5rem + 0.5vw);
+    left: calc(1.5rem + 0.5vw);
+    bottom: calc(1.5rem + 0.5vw);
+    right: calc(1.5rem + 0.5vw);
+
+    border: 1px #70889D solid;
+    pointer-events: none;
+}
